@@ -111,9 +111,9 @@ class Woopay(BasePaymentProvider):
             if(soup.status.text=='3'):
                 order.status=Order.STATUS_CANCELED
                 order.save()
-            else:
-                if(soup.status.text=='4'):
-                    mark_order_paid(order, 'woopay')
+            
+            if(soup.status.text=='4'):
+                mark_order_paid(order, 'woopay')
         
         
 
