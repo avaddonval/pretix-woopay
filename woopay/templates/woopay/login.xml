@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:XmlControllerwsdl">
+<soapenv:Header/>
+<soapenv:Body>
+<urn:core_login soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" >
+<coreLoginRequest xsi:type="urn:CoreLoginRequest" xs:type="type:CoreLoginRequest" xmlns:xs="http://www.w3.org/2000/XMLSchema-instance">
+<!--You may enter the following 3 items in any order-->
+<username xsi:type="xsd:string" xs:type="type:string">{{login}}</username>
+<password xsi:type="xsd:string" xs:type="type:string">{{password}}</password>
+<captcha xsi:type="xsd:string" xs:type="type:string"/>
+</coreLoginRequest>
+</urn:core_login>
+</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:XmlControllerwsdl">
+<soapenv:Header/>
+<soapenv:Body>
+<urn:cash_createInvoice soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" ><cashCreateInvoiceRequest xsi:type="urn:CashCreateInvoiceRequest" xs:type="type:CashCreateInvoiceRequest" xmlns:xs="http://www.w3.org/2000/XMLSchema-instance">
+<!--You may enter the following 9 items in any order-->
+<referenceId xsi:type="xsd:string" xs:type="type:string">{{referenceId}}</referenceId>
+<backUrl xsi:type="xsd:string" xs:type="type:string">{{backUrl}}</backUrl>
+<requestUrl xsi:type="xsd:string" xs:type="type:string">{{requestUrl}}</requestUrl>
+<addInfo xsi:type="xsd:string" xs:type="type:string"/>
+<amount xsi:type="xsd:float" xs:type="type:float">{{amount}}</amount>
+<deathDate xsi:type="xsd:string" xs:type="type:string"/>
+<serviceType xsi:type="xsd:int" xs:type="type:int"/>
+<description xsi:type="xsd:string" xs:type="type:string">KazHackStan</description>
+<orderNumber xsi:type="xsd:int" xs:type="type:int"/>
+</cashCreateInvoiceRequest>
+</urn:cash_createInvoice>
+</soapenv:Body>
+</soapenv:Envelope>

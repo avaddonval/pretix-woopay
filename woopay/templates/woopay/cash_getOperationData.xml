@@ -1,0 +1,11 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:XmlControllerwsdl" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<ns1:cash_getOperationData>
+<cashGetOperationDataRequest xsi:type="ns1:CashGetOperationDataRequest">
+<operationId SOAP-ENC:arrayType="xsd:int[1]" xsi:type="ns1:intArray">
+<item xsi:type="xsd:int">{{code}}</item>
+</operationId>
+</cashGetOperationDataRequest>
+</ns1:cash_getOperationData>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

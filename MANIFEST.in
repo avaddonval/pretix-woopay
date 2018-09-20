@@ -1,0 +1,3 @@
+recursive-include woopay/static *
+recursive-include woopay/templates *
+recursive-include woopay/locale *

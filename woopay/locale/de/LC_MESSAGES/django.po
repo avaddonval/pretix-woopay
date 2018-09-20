@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-20 12:47+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: cybersec\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pretix/plugins/woopay/woopay/__init__.py:10
+msgid "Woopay payment"
+msgstr ""
+
+#: pretix/plugins/woopay/woopay/__init__.py:12
+msgid "Short description"
+msgstr ""
+
+#: pretix/plugins/woopay/woopay/payment.py:37
+msgid "Woopay"
+msgstr ""
+
+#: pretix/plugins/woopay/woopay/payment.py:48
+msgid "Server"
+msgstr ""
+
+#: pretix/plugins/woopay/woopay/payment.py:51
+msgid "Live"
+msgstr ""
+
+#: pretix/plugins/woopay/woopay/payment.py:52
+msgid "Test"
+msgstr ""
+
+#: pretix/plugins/woopay/woopay/payment.py:57
+msgid "Login"
+msgstr ""
+
+#: pretix/plugins/woopay/woopay/payment.py:63
+msgid "Password"
+msgstr ""
+
+#: pretix/plugins/woopay/woopay/payment.py:71
+msgid "Site URL"
+msgstr "URL сайта"
+
+#: pretix/plugins/woopay/woopay/templates/woopay/checkout_payment_form.html:3
+msgid ""
+"After entering all data, you will be redirected to the Woopay's payment "
+"system."
+msgstr ""
+"После заполнения всех данных вы будете перенаправлены в систему платежей от "
+"Woopay"
+
+#: pretix/plugins/woopay/woopay/templates/woopay/pending.html:4
+msgid "Your payment is declined."
+msgstr "Ваш платеж отклонен"
+
+#: pretix/plugins/woopay/woopay/templates/woopay/pending.html:9
+msgid "Your payment is processing (refresh page to have an actual status)."
+msgstr ""
+"Ваш платеж в процессе обработки (обновите страницу чтобы получить актуальный "
+"статус)"
+
+#: pretix/plugins/woopay/woopay/templates/woopay/pending.html:12
+msgid "try to make payment again"
+msgstr "попробуйте оплатить повторно"
+
+#: pretix/plugins/woopay/woopay/templates/woopay/pending.html:16
+msgid "here"
+msgstr "здесь"
+
+#: pretix/plugins/woopay/woopay/templates/woopay/pending.html:24
+msgid "Your payment is successfully completed"
+msgstr "Ваш платеж успешно завершен"

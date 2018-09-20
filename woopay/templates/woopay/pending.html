@@ -1,0 +1,27 @@
+{% load i18n %}
+
+{% if status == "c" %}
+    <p>{% blocktrans trimmed %}
+        Your payment is declined.
+    {% endblocktrans %}</p>
+{% endif %}
+{% if status == "n"  %}
+    <p>{% blocktrans trimmed %}
+        Your payment is processing (refresh page to have an actual status).
+    {% endblocktrans %}
+    {% blocktrans trimmed %}
+    try to make payment again
+{% endblocktrans %}
+<a href="{{link}}">
+{% blocktrans trimmed %}
+        here
+    {% endblocktrans %}
+</a>
+</p>
+    
+{% endif %}
+{% if status == "p"  %}
+    <p>{% blocktrans trimmed %}
+        Your payment is successfully completed
+    {% endblocktrans %}</p>
+{% endif %}
