@@ -49,11 +49,11 @@ msgstr "URL сайта"
 
 #: pretix/plugins/woopay/woopay/templates/woopay/checkout_payment_form.html:3
 msgid ""
-"After entering all data, you will be redirected to the Woopay's payment "
+"After entering all data, you will be redirected to the Wooppay's payment "
 "system."
 msgstr ""
 "После заполнения всех данных вы будете перенаправлены в систему платежей от "
-"Woopay"
+"Wooppay"
 
 #: pretix/plugins/woopay/woopay/templates/woopay/pending.html:4
 msgid "Your payment is declined."

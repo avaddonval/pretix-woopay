@@ -34,7 +34,7 @@ WOOPAY_TEST_PASSWORD = 'A12345678a'
 
 class Woopay(BasePaymentProvider):
     identifier = 'woopay'
-    verbose_name = _('Woopay')
+    verbose_name = _('Wooppay')
     payment_form_fields = OrderedDict([
     ])
     
