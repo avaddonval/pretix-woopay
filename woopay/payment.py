@@ -105,7 +105,7 @@ class Woopay(BasePaymentProvider):
 
         if(soup.error_code.text!='0'):
             self._woopay_login()
-            self.get_payment_status(woop.referene)
+            self.get_payment_status(woop.order)
         else:
             print(soup.status.text)
             if(soup.status.text=='3'):
